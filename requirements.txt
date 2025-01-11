@@ -1,0 +1,9 @@
+
+psutil
+pypresence
+requests
+python-dotenv
+
+# dev?
+setuptools
+flake8

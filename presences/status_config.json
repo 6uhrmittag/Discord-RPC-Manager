@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Working on Unity Project",
+        "custom_status": {
+            "text": "Working on Unity Project",
+            "expires_at": null,
+            "emoji_name": "🛠️"
+        }
+    },
+    {
+        "name": "In VR",
+        "custom_status": {
+            "text": "In VR",
+            "expires_at": null,
+            "emoji_name": "🕶️"
+        }
+    },
+    {
+        "name": "Idle",
+        "custom_status": {
+            "text": "Idleing",
+            "expires_at": null,
+            "emoji_name": "💤"
+        }
+    },
+    {
+        "name": "coding",
+        "custom_status": {
+            "text": "coding random stuff",
+            "expires_at": null,
+            "emoji_name": "🤦"
+        }
+    },
+    {
+        "name": "afk",
+        "custom_status": {
+            "text": "afk :(",
+            "expires_at": null,
+            "emoji_name": "🙈"
+        }
+    }
+]
