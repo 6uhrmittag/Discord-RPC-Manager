@@ -1,8 +1,8 @@
 import sys
 import os
 from dotenv import load_dotenv
-from rpc_tool.discord_rpc import DiscordRPC
-from rpc_tool.process_checker import ProcessChecker
+from features.set_rpc.discord_rpc import DiscordRPC
+from helper.process_checker import ProcessChecker
 
 # Load environment variables from .env file
 load_dotenv()

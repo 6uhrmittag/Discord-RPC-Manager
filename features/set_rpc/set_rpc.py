@@ -1,4 +1,4 @@
-from helper.config_manager import PresenceConfig, PresenceManager
+from features.set_rpc.config_manager import PresenceConfig, PresenceManager
 from dotenv import load_dotenv
 import os
 
