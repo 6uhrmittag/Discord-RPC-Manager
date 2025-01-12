@@ -1,11 +1,11 @@
-from presences.config_manager import PresenceConfig, PresenceManager
+from helper.config_manager import PresenceConfig, PresenceManager
 from dotenv import load_dotenv
 import os
 
 # Load environment variables from .env file
 load_dotenv()
 
-CONFIGS = [
+RPC_SETS = [
     PresenceConfig(
         process_name="Unity Hub.exe",
         state_running="Working on Unity Project",
@@ -16,8 +16,17 @@ CONFIGS = [
         large_image_text="Unity Engine",
     ),
     PresenceConfig(
-        process_name="VirtualDesktop.Streamer.exe",
-        state_running="VR",
+       process_name="VirtualDesktop.Streamer.exe",
+       state_running="VR",
+       details_running="in VR",
+       state_not_running="VD Not Running",
+       details_not_running="Idle",
+       large_image_key="photoshop-logo",
+       large_image_text="Adobe Photoshop",
+    ),
+    PresenceConfig(
+        process_name="wsl.exe",
+        state_running="using wannabe linux in WSL2",
         details_running="in VR",
         state_not_running="VD Not Running",
         details_not_running="Idle",
@@ -35,7 +44,7 @@ def main():
         print("[ERROR] CLIENT_ID not found in environment variables.")
     else:
         print(f"[LOG] Using CLIENT_ID: {CLIENT_ID}")
-    manager = PresenceManager(CLIENT_ID, CONFIGS, CHECK_INTERVAL)
+    manager = PresenceManager(CLIENT_ID, RPC_SETS, CHECK_INTERVAL)
     manager.run()
 
 

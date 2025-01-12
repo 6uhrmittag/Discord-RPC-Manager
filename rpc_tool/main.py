@@ -10,6 +10,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+# TODO: much easier solution: https://github.com/qwertyquerty/pypresence/blob/master/examples/rich-presence-program-detection.py
+
+
 class DiscordRPC:
     def __init__(self, client_id: str):
         self.rpc = pypresence.Presence(client_id)

@@ -1,4 +1,4 @@
-from presences.config_manager import PresenceConfig, PresenceManager
+from helper.config_manager import PresenceConfig, PresenceManager
 import requests
 import json
 from typing import Optional, List, Dict
