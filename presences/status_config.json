@@ -1,16 +1,16 @@
 [
     {
-        "name": "Working on Unity Project",
+        "name": "unity",
         "custom_status": {
-            "text": "Working on Unity Project",
+            "text": "Working in Unity",
             "expires_at": null,
             "emoji_name": "🛠️"
         }
     },
     {
-        "name": "In VR",
+        "name": "vr",
         "custom_status": {
-            "text": "In VR",
+            "text": "in VR",
             "expires_at": null,
             "emoji_name": "🕶️"
         }
@@ -18,7 +18,7 @@
     {
         "name": "Idle",
         "custom_status": {
-            "text": "Idleing",
+            "text": "here and there",
             "expires_at": null,
             "emoji_name": "💤"
         }
@@ -26,7 +26,7 @@
     {
         "name": "coding",
         "custom_status": {
-            "text": "coding random stuff",
+            "text": "coding||thinking||pacing around",
             "expires_at": null,
             "emoji_name": "🤦"
         }
@@ -37,6 +37,14 @@
             "text": "afk :(",
             "expires_at": null,
             "emoji_name": "🙈"
+        }
+    },
+    {
+        "name": "morning",
+        "custom_status": {
+            "text": "pre-coffee brain",
+            "expires_at": null,
+            "emoji_name": "🥱"
         }
     }
 ]
